@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AeraCalculator
 {
-    internal class AreaCalculator
+    public class AreaCalculator
     {
         private IAreaStrategy _strategy;
         public AreaCalculator(IAreaStrategy strategy)

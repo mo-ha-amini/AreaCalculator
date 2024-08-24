@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AeraCalculator
 {
-    internal class ShoelaceAreaStrategy: IAreaStrategy
+    public class ShoelaceAreaStrategy: IAreaStrategy
     {
         public double CalculateArea(List<(double x, double y)> coordinates) 
         { 

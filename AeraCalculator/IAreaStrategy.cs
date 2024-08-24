@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AeraCalculator
 {
-    internal interface IAreaStrategy
+    public interface IAreaStrategy
     {
         double CalculateArea(List<(double x, double y)> area);
     }
